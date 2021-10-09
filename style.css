@@ -20,7 +20,7 @@
 
 /*styling for "meeting minute" header*/
 #meetingminuteheader {
-  color: rgb(255, 251, 44);
+  color: rgb(255, 139, 44);
   margin-left: 10px;
   margin-top: 1px;
   margin-right: 1px;
@@ -48,18 +48,15 @@
   padding-top: 10pt;
   padding-right: 10pt;
   padding-bottom: 10pt;
-
-  background-color: #567895;
-  border: 5px solid #0b385f;
-  border-bottom-style: dashed;
+  background-color: #e2aad1;
+  border: 5px solid #ce37a8;
   border-width: 1.3ch;
-  color: #fff;
 }
 
 /*display block inline text*/
 p.tryingdisplayinline {
   display: block;
-  color: yellowgreen;
+  color: rgb(179, 255, 25);
 }
 
 /*styling for video*/
@@ -136,7 +133,7 @@ div ~ ul {
 
 /*adjacent sibling combinator*/
 div + div {
-  color: sandybrown;
+  color: rgb(78, 39, 248);
 }
 
 /*combining two combinator*/
