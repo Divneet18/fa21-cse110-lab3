@@ -1,4 +1,145 @@
+/*universal selector*/
+* {
+  font-family: "Playfair Display", serif;
+}
+
+/*styling for title*/
+#title {
+  border: 10px solid rebeccapurple;
+  border-radius: 1em;
+}
+
+/*styling for icon*/
+#top-picture {
+  max-width: 50px;
+  min-width: 200px;
+  position: static;
+  top: 0.5cm;
+  left: 1.5cm;
+}
+
+/*styling for "meeting minute" header*/
 #meetingminuteheader {
   color: rgb(255, 251, 44);
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 10px;
+}
+
+/*styling for navigations*/
+#nav_id {
+  background-color: hsl(176, 100%, 50%);
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-rows: 100px 100px;
+  grid-auto-flow: row;
+  padding: 40px;
+}
+
+/*not displayed text*/
+#testblock {
+  display: none;
+}
+
+/*styling for notes on each day*/
+.mainnotes {
+  padding-left: 10pt;
+  padding-top: 10pt;
+  padding-right: 10pt;
+  padding-bottom: 10pt;
+
+  background-color: #567895;
+  border: 5px solid #0b385f;
+  border-bottom-style: dashed;
+  border-width: 1.3ch;
+  color: #fff;
+}
+
+/*display block inline text*/
+p.tryingdisplayinline {
+  display: block;
+  color: yellowgreen;
+}
+
+/*styling for video*/
+#rest-video {
+  height: 35vmin;
+  width: 50vmin;
+  margin: 10px 10px 10px 10px;
+}
+
+/*styling for audio*/
+#audio-id {
+  position: absolute;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+
+/*flex box*/
+.box {
+  display: flex;
+  flex-grow: 3;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+/*each grid item styling*/
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0.2px solid rgba(0, 0, 0, 0.8);
+  padding: 20px 20px 20px 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*element selector*/
+span {
+  background-color: yellowgreen;
+}
+
+/*attribute selector*/
+a[target="clicklink"] {
+  background-color: burlywood;
+}
+
+/*selector list*/
+h1,
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+}
+
+/*child combinator*/
+div > p {
+  background-color: red;
+}
+
+/*descendant combinator*/
+fieldset label {
+  font-style: oblique;
+}
+
+/*general sibling combinator*/
+div ~ ul {
+  color: black;
+}
+
+/*adjacent sibling combinator*/
+div + div {
+  color: sandybrown;
+}
+
+/*combining two combinator*/
+div.mainnotes {
+  text-align: left;
 }
